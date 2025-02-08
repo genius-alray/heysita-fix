@@ -2,6 +2,7 @@ import fs from 'fs/promises'
 import path from 'path'
 
 export default defineNuxtConfig({
+  ssr:false,
   devtools: { enabled: true },
   modules: ['@nuxt/content'],
 
